@@ -8,25 +8,7 @@ body {
   padding: 0;
   display: block;
 }
-#choose {
-  margin: 0;
-  padding: 0;
-  display: none;
-}
-#fbp {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 80%;
-  display: none;
-}
-#igp {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 80%;
-  display: none;
-}
+
 header img {
   width: 100%;
   height: 70%;
@@ -201,138 +183,58 @@ header hr {
   border-width: 1px;
   margin-bottom: 10px;
 }
-#fb {
-  width: 50px;
-  height: 50px;
-}
-#fb:active {
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 1px 1px gray;
-}
-#ig {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  top: 5px;
-}
-#ig:active {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  top: 5px;
-  box-shadow: 1px 1px 1px gray;
+
+#home {
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 #choose {
-  background-color: white;
-  width: 80%;
-  height: 30vh;
-  border-style: dotted;
-  border-width: 2px;
-  border-color: rgba(42, 6, 6, 0.292);
-  position: fixed;
-  top: 40vh;
-  left: 10vw;
-  z-index: 30;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#fblogo {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
+/* Additional styles for close button */
+#fb_wrapper {
+  margin: 0;
+  padding: 10;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
 }
-#iglogo {
-  width: 200px;
+#ig_wrapper {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  position: fixed;
+}
+#choose_fb {
+  width: 50px;
   height: 50px;
   position: relative;
-  left: 10px;
+  top: 5px;
 }
-#fb2 {
-  font-size: 40px;
-  color: #3c6eb5ea;
-  text-shadow: 0px 0px 0px black;
-}
-#fb-log {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-}
-.fb-bug {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
-}
-.ggt {
+#choose_ig {
+  width: 50px;
+  height: 50px;
   position: relative;
-  top: 200px;
+  top: 5px;
 }
-.ppt {
-  position: relative;
-  top: 170px;
+
+.uiBoxRed {
+  background-color: #ffebe8;
+  border: 1px solid #dd3c10;
 }
-.collect {
-  position: relative;
-  top: 170px;
+
+.pam {
+  padding: 10px;
 }
-.ggt input {
-  width: 68%;
-  height: 38px;
-  background-color: #cdd8da;
-  border-style: outset;
-  border-width: 1px;
-  border-radius: 5px;
-}
-.ppt input {
-  width: 68%;
-  height: 38px;
-  background-color: #e4e4e4;
-  border-style: outset;
-  border-width: 1px;
-  border-radius: 5px;
-  margin-top: 5px;
-  position: relative;
-  top: -30px;
-}
-#ig-log {
-  width: 68%;
-  height: 38px;
-  background-color: #3c6eb5ea;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-}
-#fb-log:active {
-  width: 68%;
-  height: 38px;
-  background-color: #5599d0;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
-}
-.fb-bug:active {
-  width: 68%;
-  height: 38px;
-  background-color: #5599d0;
-  border-style: none;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: 900;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
+
+._3-95 {
+  margin-bottom: 8px;
 }
