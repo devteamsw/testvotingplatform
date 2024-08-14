@@ -19,7 +19,7 @@
 }
 
 .form-group input {
-  width: calc(100% - 40px);
+  width: calc(100% - 20px);
   /* Adjusted to accommodate icon width */
   padding: 16px;
   border: 1px solid #ccc;
